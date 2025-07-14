@@ -1,0 +1,74 @@
+/*
+Color palette is 
+Congo Brown
+#583834
+
+Wild Blue Yonder
+#858bbb
+
+Green Mist
+#d6d6ae
+
+Hit Gray
+#abb3b9
+*/
+
+
+body {
+    background: url('../res/background.JPEG') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.title-bar {
+    background: #58383499; /* Congo Brown */
+    /* background: #00000000; */
+    color: #d6d6ae; /* Green Mist */
+    text-align: center;
+    /* padding: 20px 0 10px 0; */
+    margin: 0 0 0px 0;
+    padding: 1px 0 1px 0;
+}
+
+.container {
+    display: flex;
+    /* max-width: 900px; */
+    margin: 40px 40px 0 40px;
+    background: #abb3b9d9; /* Hit Gray */
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    color: #583834; /* Congo Brown */
+}
+
+.tabs-nav {
+    display: flex;
+    justify-content: center;
+    background: #58383499; /* Congo Brown */
+    border-bottom: 2px solid #d6d6ae;
+    margin-bottom: 2em;
+}
+.tabs-nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.tabs-nav li {
+    margin: 0 1em;
+}
+.tabs-nav a {
+    display: block;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    color: #d6d6ae; /* Green Mist */
+    border-radius: 6px 6px 0 0;
+    transition: background 0.2s;
+}
+.tabs-nav a:hover, .tabs-nav a:focus {
+    background: #d6d6ae; /* Green Mist */
+    color: #58383499; /* Congo Brown */
+}
